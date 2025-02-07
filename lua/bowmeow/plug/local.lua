@@ -1,7 +1,6 @@
 local local_plugins = {
     {
-        "harpoon",
-        dir = "ThePrimeagen/harpoon",
+        "ThePrimeagen/harpoon",
         config = function()
             local harpoon = require("harpoon")
 
